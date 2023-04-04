@@ -21,19 +21,5 @@ public class PeixeBO extends AnimaisBO implements Animal {
 		System.out.println("blub blub");
 		
 	}
-
-	@Override
-	public void comando() {
-		System.out.println("Escolha um comando 1- Seguir o dedo 2-fazer barulho ");
-		 int input = scanner.nextInt();
-		 
-		 if(input == 1) {
-			 System.out.println("o peixe esta seguindo o dedo");
-		 }else if (input == 2) {
-			barulho();
-		
-		
-	}
-
- }
 }
+

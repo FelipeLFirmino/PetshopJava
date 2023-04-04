@@ -1,9 +1,6 @@
 package petshop;
 
 public interface Animal {
-  public void barulho();
-  
-  public void comando();
-  
+  public void barulho(); 
   
 }

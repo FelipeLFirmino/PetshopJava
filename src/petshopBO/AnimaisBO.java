@@ -1,6 +1,8 @@
 package petshopBO;
 
-public abstract class AnimaisBO {
+import petshop.Animal;
+
+public abstract class AnimaisBO implements Animal {
 	 private String tipoAnimal; 
 	  private int numerodepatas;
 	  private int idade;
@@ -95,7 +97,7 @@ public abstract class AnimaisBO {
 		if (isAdestrado()) {
 			System.out.println("O animal é adestrado");
 		}else {
-			System.out.println("O animal não é adestradoto");
+			System.out.println("O animal não é adestrado");
 		}
 		System.out.println("------------------------------");
 	}
